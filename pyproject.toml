@@ -1,0 +1,20 @@
+[project]
+name = "tp5-agentic-ai-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.16.0",
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.6",
+    "langchain>=1.5.2",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.5.1",
+    "langchain-mcp-adapters>=0.3.2",
+    "langchain-openai>=1.8.3",
+    "langgraph>=1.2.23",
+    "mcp[cli]>=1.30.0",
+    "pypdf>=7.1.1",
+    "python-dotenv>=1.2.4",
+]
